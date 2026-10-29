@@ -47,7 +47,7 @@ router.post("/products/:id/inventory", async (req: AuthRequest, res: Response) =
       return res.status(400).send("Invalid inventory count");
     }
 
-    await inventoryService.updateProductInventory(id, parseInt(inventory));
+    await inventoryService.updateProductInventory(id as string, parseInt(inventory));
 
     logger.info(`Admin ${req.user?.id} manually set product ${id} inventory to ${inventory}`);
     res.redirect("/admin/dashboard");
