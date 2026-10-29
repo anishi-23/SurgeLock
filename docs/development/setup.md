@@ -21,8 +21,8 @@ This guide gets the project running from scratch on a developer machine. Docker 
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/TheBigWealth89/product_reservation.git
-cd product_reservation
+git clone https://github.com/anishi-23/SurgeLock.git
+cd SurgeLock
 ```
 
 ### 2. Install Node.js dependencies
