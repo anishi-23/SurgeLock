@@ -24,7 +24,7 @@ const io = initSockets(httpServer);
       logger.error("Sync failed at startup; continuing to boot:", syncErr);
     }
 
-    httpServer.listen(port, () => {
+    httpServer.listen(port,'0.0.0.0',() => {
       logger.info(`Server with Socket.IO running on http://localhost:${port}`);
     });
   } catch (err) {

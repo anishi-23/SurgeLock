@@ -40,7 +40,7 @@ export async function cleanupProcessor(job: Job) {
     if (job.remove) {
       await job.remove();
     }
-    logger.info(`✅ Successfully cleaned job ${job.id}`);
+    logger.info(` Successfully cleaned job ${job.id}`);
   } catch (err: any) {
     if (client) await client.query("ROLLBACK");
     logger.error(`❌ Failed to clean job ${job.id}:`, err);

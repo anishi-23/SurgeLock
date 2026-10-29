@@ -67,7 +67,7 @@ The API is available at `http://localhost:3000`. See [docs/development/setup.md]
 |---|---|
 | [docs/architecture/overview.md](docs/architecture/overview.md) | System design, 4-process model, directory structure, tech stack rationale |
 | [docs/architecture/data-flow.md](docs/architecture/data-flow.md) | Payment flow, reservation flow, Redis Pub/Sub bridge, webhook flow |
-| [docs/architecture/fault-tolerance.md](docs/architecture/fault-tolerance.md) | Every defensive pattern — what it protects, where it lives, why it was chosen |
+| [docs/architecture/fault-tolerance.md](docs/architecture/fault-tolerance.md) | Every defensive pattern — what it protects, where it lives, why it was chosen | 
 | [docs/api/endpoints.md](docs/api/endpoints.md) | Complete API reference: all routes, auth, rate limits, request/response shapes |
 | [docs/api/websockets.md](docs/api/websockets.md) | Socket.IO events, Redis Pub/Sub channel, real-time bridge explained |
 | [docs/database/schema.md](docs/database/schema.md) | PostgreSQL tables: all columns, types, constraints |
